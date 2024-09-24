@@ -1,0 +1,52 @@
+baseURL = "/"
+theme = "hugo-whisper-theme"
+languageCode = "en-us"
+title = "Privacy-Enhancing Technologies (PETS)"
+
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClasses = true
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.55.0"
+
+# Controls how many words are printed in the content summary on the docs homepage.
+# See https://gohugo.io/content-management/summaries/
+summaryLength = 30
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Material"
+    url = "/material/"
+    weight = 2
+
+[params]
+  google_analytics_id=""
+  homepage_button_link = '/material'
+  homepage_button_text = 'Material'
+  homepage_intro = 'Privacy-Enhancing Techologies lecture material.'
+  homepage_image = ''
+
+  ## You can enable to add anchor links to header elements
+  # enable_anchor_link = true
+
+  [params.homepage_meta_tags]
+    meta_description = "Lecture material for Privacy-Enhancing Technologies (PETS)."
+    meta_og_title = "Privacy-Enhancing Technologies (PETS)"
+    meta_og_type = "website"
+    meta_og_image = "https://avatars.githubusercontent.com/u/182622536?"
+    meta_og_description = "Lecture notes and challenges for Privacy-Enhancing Technologies."
+    meta_twitter_card = "summary"
+
+  [params.logo]
+      mobile = "/images/logo-mobile.svg"
+      standard  = "/images/logo.svg"
+
+  [params.footer]
+    copyright_text = 'Created with <a href="https://gohugo.io/">Hugo</a>.'
