@@ -17,31 +17,31 @@ pygmentsUseClasses = true
 summaryLength = 30
 
 [[menu.main]]
-    name = "Home"
+    name = "About"
     url = "/"
     weight = 1
 
 [[menu.main]]
-    name = "Material"
-    url = "/material/"
+    name = "Content"
+    url = "/course/"
     weight = 2
 
 [params]
   google_analytics_id=""
-  homepage_button_link = '/material'
-  homepage_button_text = 'Material'
-  homepage_intro = 'Privacy-Enhancing Techologies lecture material.'
+  homepage_button_link = '/course'
+  homepage_button_text = 'Content'
+  homepage_intro = 'Privacy-Enhancing Techologies Lecture Archive'
   homepage_image = ''
 
   ## You can enable to add anchor links to header elements
   # enable_anchor_link = true
 
   [params.homepage_meta_tags]
-    meta_description = "Lecture material for Privacy-Enhancing Technologies (PETS)."
+    meta_description = "Lecture Content Archive for Privacy-Enhancing Technologies (PETS)."
     meta_og_title = "Privacy-Enhancing Technologies (PETS)"
     meta_og_type = "website"
     meta_og_image = "https://avatars.githubusercontent.com/u/182622536?"
-    meta_og_description = "Lecture notes and challenges for Privacy-Enhancing Technologies."
+    meta_og_description = "Lecture notes and challenges for our Privacy-Enhancing Technologies (PETS) university course."
     meta_twitter_card = "summary"
 
   [params.logo]
@@ -49,4 +49,4 @@ summaryLength = 30
       standard  = "/images/logo.svg"
 
   [params.footer]
-    copyright_text = 'Created with <a href="https://gohugo.io/">Hugo</a>.'
+    copyright_text = 'Except where otherwise noted, content on this site is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0 license</a>.'
