@@ -1,10 +1,12 @@
 ---
-title: 'PETS Slides'
+title: 'Slides'
 date: 2024-09-24
 weight: 2
 ---
+The following slides are based on [
+194.144 Privacy-Enhancing Technologies](https://tiss.tuwien.ac.at/course/educationDetails.xhtml?dswid=9857&dsrid=946&semester=2023W&courseNr=194144) from late 2023.
 
-## Slides
+### PETS Topics
 #### [01_Introduction.pdf](/slides/01_Introduction.pdf)
 Introduction and motivation for PET
 

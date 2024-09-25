@@ -1,8 +1,19 @@
-# PETS Lecture Material
+# Privacy-Enhancing Technologies (PETS)
 
 ---
 
-Simple Hugo Website on Github Pages with PETS lecture material: **[https://pets-lecture.github.io](https://pets-lecture.github.io/)**
+## Public Archive of Course Content
+### [pets-lecture.github.io](https://pets-lecture.github.io/)
+
+---
+
+This repository contains the public archive of the university course 
+"Privacy-Enhancing Technologies (PETS)". Originally taught from 2014 - 2023 for 
+BSc. and MSc. students at the Vienna University of Technology.
+
+---
+
+Our public course archive is powered by GitHub Pages and Hugo.
 
 ---
 
