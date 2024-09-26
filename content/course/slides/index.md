@@ -2,16 +2,18 @@
 title: 'Slides'
 date: 2024-09-24
 weight: 2
+summary: 'PDF Slides based on our PETS lecture from late 2023.'
 ---
-The following slides are based on [
-194.144 Privacy-Enhancing Technologies](https://tiss.tuwien.ac.at/course/educationDetails.xhtml?dswid=9857&dsrid=946&semester=2023W&courseNr=194144) from late 2023.
+The following slides are based on our last PETS course ([194.144@TU Wien](https://tiss.tuwien.ac.at/course/educationDetails.xhtml?dswid=9857&dsrid=946&semester=2023W&courseNr=194144)) from late 2023.
 
-### PETS Topics
-#### [01_Introduction.pdf](/slides/01_Introduction.pdf)
-Introduction and motivation for PET
+### Topics
+
+#### 01_Introduction.pdf [-> pdf](/slides/01_Introduction.pdf)
+`introduction`, `motivation`
 
 #### [02_Anonymity.pdf](/slides/02_Anonymity.pdf)
 Systems for online anonymity (remailer, dining cryptographers, mix networks)
+`remailer`, `chaum mixes`, `mix networks`
 
 #### [03_Censorship.pdf](/slides/03_Censorship.pdf)
 Internet censorship (technologies, measurements, circumvention, Great Firewall of China)
