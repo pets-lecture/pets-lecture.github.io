@@ -1,8 +1,4 @@
-{{- if hugo.IsServer -}}
-  <!-- Dont add Matomo to localhost -->
-{{ else }}
-  {{ $mid := (getenv "HUGO_MATOMO_ANALYTICS_ID") }}
-  {{ if $mid }}
+  {{ if .Site.Params.matomo_analytics_id }}
     <!-- Matomo -->
     <script>
       var _paq = window._paq = window._paq || [];
@@ -12,10 +8,9 @@
       (function() {
         var u="{{ .Site.Params.matomo_analytics_host }}";
         _paq.push(['setTrackerUrl', u+'matomo.php']);
-        _paq.push(['setSiteId', '{{ $mid }}']);
+        _paq.push(['setSiteId', '{{ .Site.Params.matomo_analytics_id }}']);
         var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
         g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
       })();
     </script>
-  {{ end}}
-{{ end }}
+  {{ end }}
