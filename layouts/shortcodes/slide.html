@@ -1,0 +1,5 @@
+{{ $filepath := (printf "static/slides/%s" (.Get `file_name`)) }}
+{{ $file := os.Stat $filepath }}
+{{ $file_size_in_mb := (printf "%.2f" (div $file.Size 1000000.0)) }}
+
+<h2><a href="/slides/{{.Get `file_name` }}">{{ path.BaseName $filepath }}</a><span style="font-size: 1rem;"> PDF ({{ $file_size_in_mb}} MB)</span></h2>

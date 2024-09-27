@@ -27,7 +27,8 @@ summaryLength = 30
     weight = 2
 
 [params]
-  google_analytics_id=""
+  matomo_analytics_id="11"
+  matomo_analytics_host="//matomo.nysos.net/"
   homepage_button_link = '/course'
   homepage_button_text = 'Content'
   homepage_intro = 'Privacy-Enhancing Techologies Lecture Archive'

@@ -2,29 +2,46 @@
 title: 'Slides'
 date: 2024-09-24
 weight: 2
+summary: 'PDF Slides based on our PETS lecture from late 2023.'
 ---
-The following slides are based on [
-194.144 Privacy-Enhancing Technologies](https://tiss.tuwien.ac.at/course/educationDetails.xhtml?dswid=9857&dsrid=946&semester=2023W&courseNr=194144) from late 2023.
+The following slides in format are based on our last PETS course from late 2023 (see [194.144@TU Wien](https://tiss.tuwien.ac.at/course/educationDetails.xhtml?dswid=9857&dsrid=946&semester=2023W&courseNr=194144)).
 
-### PETS Topics
-#### [01_Introduction.pdf](/slides/01_Introduction.pdf)
-Introduction and motivation for PET
+### Topics
 
-#### [02_Anonymity.pdf](/slides/02_Anonymity.pdf)
-Systems for online anonymity (remailer, dining cryptographers, mix networks)
+{{< slide file_name="01_Introduction.pdf" >}}
+`introduction`, `motivation`, `non-technical aspects`
 
-#### [03_Censorship.pdf](/slides/03_Censorship.pdf)
-Internet censorship (technologies, measurements, circumvention, Great Firewall of China)
 
-#### [04_Messaging.pdf](/slides/04_Messaging.pdf)
-Secure Messaging (PGP, OTR, ZRTP, mobile messaging, Signal)
+{{< slide file_name="02_Anonymity.pdf" >}}
 
-#### [05_TLS.pdf](/slides/05_TLS.pdf)
-Transport Layer Security (TLS, PKI, Implementations, Crypto, HTTPS, attacks, incidents, HSTS, CT, DNS over TLS/HTTPS)
+`remailer`, `chaum mixes`, `mix networks`
 
-#### [06_Tor.pdf](/slides/06_Tor.pdf)
-Tor (onion routing, functionality, onion services, attacks, usage)
 
-#### [07_WebPrivacy.pdf](/slides/07_WebPrivacy.pdf)
-Web Privacy (web tracking, fingerprinting, anti tracking)
+{{< slide file_name="03_Censorship.pdf" >}}
 
+`censorship technologies`, `circumvention`, `measurements`
+
+
+{{< slide file_name="04_Messaging.pdf" >}}
+
+`pgp`, `mobile messaging`, `signal`
+
+
+{{< slide file_name="05_TLS.pdf" >}}
+
+`transport layer security`, `public key infrastructure`, `https`
+
+
+{{< slide file_name="06_Tor.pdf" >}}
+
+`onion routing`, `hidden services`, `attacks`
+
+
+{{< slide file_name="07_WebPrivacy.pdf" >}}
+
+`web tracking`, `fingerprinting`, `dns privacy`
+
+
+{{< slide file_name="08_VPNs.pdf" >}}
+
+`tls-based`, `wireguard`, `alternatives`
